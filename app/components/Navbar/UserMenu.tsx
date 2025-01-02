@@ -15,11 +15,9 @@ const UserMenu = () => {
         </div>
         <div
           onClick={() => {}}
-          className=" p-4 md:py-1 md:px-2 border-[1px] border-neutral-200 gap-3 rounded-full cursor-pointer hover:shadow-md transition flex flex-row"
+          className=" p-4 md:py-1 md:px-2 border-[1px] border-neutral-200 gap-3 rounded-full cursor-pointer hover:shadow-md transition flex flex-row items-center"
         >
-          <div className="pt-2 sd:pt-0">
-            <AiOutlineMenu />
-          </div>
+          <AiOutlineMenu />
           <div className="hidden md:block">
             <Avatar />
           </div>
