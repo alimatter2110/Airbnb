@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{}"
+self.__REACT_LOADABLE_MANIFEST="{\"app/components/Modals/RentModal.tsx -> ../Map\":{\"id\":\"app/components/Modals/RentModal.tsx -> ../Map\",\"files\":[\"static/css/_app-pages-browser_app_components_Map_tsx.css\",\"static/chunks/_app-pages-browser_app_components_Map_tsx.js\"]}}"
