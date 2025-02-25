@@ -7,10 +7,14 @@ import { IconType } from "react-icons";
 interface CategoryBoxProps {
   label: String;
   selected?: boolean;
-  Icon: IconType;
+  icon: IconType;
 }
 
-const CategoryBox: React.FC<CategoryBoxProps> = ({ label, selected, Icon }) => {
+const CategoryBox: React.FC<CategoryBoxProps> = ({
+  label,
+  selected,
+  icon: Icon,
+}) => {
   const router = useRouter();
   const params = useSearchParams();
 

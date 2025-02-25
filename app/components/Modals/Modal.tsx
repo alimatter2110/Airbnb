@@ -6,6 +6,8 @@ import Button from "../Button";
 import useRegisterModal from "@/app/hooks/useRegisterModal";
 import useLoginModal from "@/app/hooks/useLoginModal";
 import useRentModal from "@/app/hooks/useRentModal";
+import searchModal from "./SearchModal";
+import useSearchModal from "@/app/hooks/useSearchModal";
 
 interface ModalProps {
   isOpen?: boolean;
@@ -35,10 +37,12 @@ const Modal: React.FC<ModalProps> = ({
   const registerModal = useRegisterModal();
   const loginModal = useLoginModal();
   const rentModal = useRentModal();
+  const searchModal = useSearchModal();
 
   const handleClose = () => {
     loginModal.onClose();
     registerModal.onClose();
+    searchModal.onClose();
     rentModal.onClose();
     setTimeout(() => {}, 300);
   };

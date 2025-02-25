@@ -5,5 +5,12 @@
       "static/css/_app-pages-browser_app_components_Map_tsx.css",
       "static/chunks/_app-pages-browser_app_components_Map_tsx.js"
     ]
+  },
+  "app/components/Modals/SearchModal.tsx -> ../Map": {
+    "id": "app/components/Modals/SearchModal.tsx -> ../Map",
+    "files": [
+      "static/css/_app-pages-browser_app_components_Map_tsx.css",
+      "static/chunks/_app-pages-browser_app_components_Map_tsx.js"
+    ]
   }
 }

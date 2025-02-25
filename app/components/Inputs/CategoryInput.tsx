@@ -1,17 +1,18 @@
 "use client";
 
+import { Icon } from "leaflet";
 import { IconType } from "react-icons";
 
 interface CategoryInput {
   selected: boolean;
-  Icon: IconType;
+  icon: IconType;
   label: String;
   onClick: (value: String) => void;
 }
 
 const CategoryInput: React.FC<CategoryInput> = ({
   selected,
-  Icon,
+  icon: Icon,
   label,
   onClick,
 }) => {

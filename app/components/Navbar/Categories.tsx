@@ -21,77 +21,77 @@ import path from "path";
 export const categories = [
   {
     label: "Beach",
-    Icon: TbBeach,
+    icon: TbBeach,
     description: "This property is close to the beach!",
   },
   {
     label: "windwills",
-    Icon: GiWindmill,
+    icon: GiWindmill,
     description: "This property has windmills!",
   },
   {
     label: "Modern",
-    Icon: MdOutlineVilla,
+    icon: MdOutlineVilla,
     description: "This property is modern!",
   },
   {
     label: "Countryside",
-    Icon: TbMountain,
+    icon: TbMountain,
     description: "This property is in the countryside!",
   },
   {
     label: "Pools",
-    Icon: TbPool,
+    icon: TbPool,
     description: "This property has a pool!",
   },
   {
     label: "Islands",
-    Icon: GiIsland,
+    icon: GiIsland,
     description: "This property is on a island",
   },
   {
     label: "Lake",
-    Icon: GiBoatFishing,
+    icon: GiBoatFishing,
     description: "This property is close to a lake",
   },
   {
     label: "Skiing",
-    Icon: FaSkiing,
+    icon: FaSkiing,
     description: "This property has skiing activities!",
   },
   {
     label: "Castle",
-    Icon: GiCastle,
+    icon: GiCastle,
     description: "This property is in a castle!",
   },
   {
     label: "Camping",
-    Icon: GiForestCamp,
+    icon: GiForestCamp,
     description: "This property has camping activities!",
   },
   {
     label: "Arctic",
-    Icon: BsSnow,
+    icon: BsSnow,
     description: "This property has camping activities!",
   },
   {
     label: "Cave",
-    Icon: GiCaveEntrance,
+    icon: GiCaveEntrance,
     description: "This property is in a cave!",
   },
   {
     label: "Desert",
-    Icon: FaSkiing,
+    icon: FaSkiing,
     description: "This property is in the desert!",
   },
   {
     label: "Barms",
-    Icon: GiBarn,
+    icon: GiBarn,
     description: "This property is in the barn!",
   },
   {
     label: "Lux",
-    Icon: IoDiamond,
+    icon: IoDiamond,
     description: "This property is luxurious!",
   },
 ];
@@ -108,12 +108,12 @@ const Categories = () => {
     <Container>
       <div className="pt-4 flex items-center justify-between overflow-x-auto">
         {categories.map((item) => {
-          const { label, Icon, description } = item;
+          const { label, icon } = item;
           return (
             <CategoryBox
               key={label}
               label={label}
-              Icon={Icon}
+              icon={icon}
               selected={category === label}
             />
           );

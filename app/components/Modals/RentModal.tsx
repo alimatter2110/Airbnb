@@ -88,13 +88,13 @@ const RentModal = () => {
       />
       <div className=" pb-1 grid grid-cols-1 md:grid-cols-2 gap-3 max-h-[50vh] overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-200">
         {categories.map((item) => {
-          const { label, Icon, description } = item;
+          const { label, icon, description } = item;
           return (
             <div className="col-span-1" key={label}>
               <CategoryInput
                 onClick={(category) => setCustomValue("category", category)}
                 selected={category === label}
-                Icon={Icon}
+                icon={icon}
                 label={label}
               />
             </div>
