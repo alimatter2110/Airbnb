@@ -4,9 +4,7 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true, // Disable ESLint during builds
   },
-  experimental: {
-    appDir: true,
-  },
+
   images: {
     domains: [
       "avatars.githubusercontent.com",
